@@ -1,0 +1,5 @@
+bus_id,name,area,model,unit_id,H_s,governor,governor_R_like,notes
+3115,PORJUS,SE1,GENSAL,1,7.57,HYGOV,0.06,"H from first GENSAL parameter in DYR; governor row preserved for screening only"
+6500,TRONDHEIM,NO3,GENSAL,1,5.4855,HYGOV,0.06,"Representative first machine at bus 6500"
+6700,ROSSAGA,NO4,GENSAL,1,5.24,HYGOV,0.06,"Representative first machine at bus 6700"
+7100,OULU,FI,GENSAL,1,5.00,,,"Representative first machine at bus 7100"
