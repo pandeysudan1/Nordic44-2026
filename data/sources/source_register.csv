@@ -1,5 +1,6 @@
 source_id,organization,title,url_or_reference,published_or_accessed,scope,notes
 S000,Statnett,Nordic44 original benchmark,https://github.com/statnett/Nordic44,2017/base-data-2015,base model,Synthetic Nordic HV model trained and validated against 2015 market hours; do not modify in-place
+S001,ALSETLab,Nordic44-Nordpool historical mapping implementation,https://github.com/ALSETLab/Nordic44-Nordpool/blob/master/nordic44/n44.py,2017-era workflow,base mapping,Contains representative buses for Nordic bidding areas and external exchanges used to match Nord Pool data to Nordic44
 S101,Statnett,Our projects in Northern Norway,https://www.statnett.no/en/our-projects/northern-norway/,accessed-2026-09-14,Norway,Ofoten-Balsfjord commissioned Sep 2017; Nedre Rossaga-Namsos upgraded to 420 kV Oct 2017
 S102,Statnett,Our projects in Central Norway,https://www.statnett.no/en/our-projects/central-norway/,accessed-2026-09-14,Norway,Sogndal-Orskog 420 kV interconnector operational Dec 2016
 S103,Statnett,System Development Plan 2025 summary,https://www.statnett.no/globalassets/for-aktorer-i-kraftsystemet/planer-og-analyser/sup/summary-of-system-development-plan-2025.pdf,2025,Norway,Aurland-Sogndal 420 kV commissioned autumn 2025 and temperature upgrades reported
