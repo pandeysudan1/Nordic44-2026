@@ -1,0 +1,9 @@
+from_bus,to_bus,circuit,r_pu,x_pu,b_pu,rate_a_mva,rate_b_mva,rate_c_mva,area_role,source_note
+6500,6700,1,0.17,1.80,0.10,800,900,950,NO3-NO4,"Original Nordic44 RAW branch"
+6500,6700,2,0.10,1.30,0.12,1000,1200,1300,NO3-NO4,"Original Nordic44 RAW branch"
+5301,5304,1,0.01,0.20,0.06,1250,1500,1700,NO5-internal,"Aurland-Geilo"
+5301,5305,1,0.007,0.12,0.031,2000,2200,2500,NO5-internal,"Aurland-Eidfjord"
+5301,6001,1,0.013,0.20,0.05,1800,2000,2150,NO5-NO2-coupled,"Aurland-Hagafoss equivalent path"
+7000,7100,1,0.04,0.12,0.13,1040,1200,1500,FI-internal,"Helsinki-Oulu circuit 1"
+7000,7100,2,0.04,0.12,0.13,1040,1200,1500,FI-internal,"Helsinki-Oulu circuit 2"
+7000,7100,3,0.04,0.14,0.13,1200,1500,1700,FI-internal,"Helsinki-Oulu circuit 3"
