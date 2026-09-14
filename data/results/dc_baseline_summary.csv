@@ -1,0 +1,17 @@
+metric,value,unit,interpretation
+bus_count,44,count,Parsed from pinned 2015 RAW
+load_count,48,count,Includes in-service and out-of-service exchange loads
+generator_count,80,count,Parsed generator records
+branch_count,67,count,AC branch records
+transformer_count,12,count,Two-winding transformer records
+slack_bus,3300,bus,OSKARSHAMN
+specified_injection_sum,20.002,MW,Slack absorbs residual active-power mismatch
+dc_raw_angle_mae,0.3709,deg,DC angles versus shifted historical RAW angles
+dc_raw_angle_max_error,1.7456,deg,Maximum absolute bus-angle error
+NO3_NO4_circuit_1_flow,-131.17,MW,Negative for defined 6500 to 6700 direction
+NO3_NO4_circuit_2_flow,-181.61,MW,Negative for defined 6500 to 6700 direction
+NO3_NO4_net_flow,-312.78,MW,Equivalent to about 312.78 MW NO4 to NO3
+SE1_FI_tie_3115_7100,-324.75,MW,Negative for defined SE1 to FI direction
+SE2_FI_tie_3249_7100,464.74,MW,Positive for defined SE2 to FI direction
+SE_FI_net_AC_flow,139.99,MW,Net of the two historical Sweden-Finland AC ties; positive Sweden to Finland
+Aurora_2026_capability_increment,700,MW,Documented FI-SE transfer-capability increase; not a branch rating
