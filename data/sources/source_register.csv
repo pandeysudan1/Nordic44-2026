@@ -1,0 +1,7 @@
+source_id,organization,title,url_or_reference,published_or_accessed,scope,notes
+S000,Statnett,Nordic44 original benchmark,public GitHub repository,2015,base model,Do not modify in-place
+S100,Statnett,TBD,TBD,2026,Norway,Add official 2026 source
+S200,Svenska kraftnat,TBD,TBD,2026,Sweden,Add official 2026 source
+S300,Fingrid,TBD,TBD,2026,Finland,Add official 2026 source
+S400,Energinet,TBD,TBD,2026,Denmark,Add official 2026 source
+S500,ENTSO-E,TBD,TBD,2026,Nordic,Add transparency/platform snapshot where permitted
