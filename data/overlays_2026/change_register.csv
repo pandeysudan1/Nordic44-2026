@@ -1,0 +1,5 @@
+action,element_type,element_id,parameter,value_2015,value_2026,unit,source,source_date,confidence,mapping_note
+KEEP,model,system,base_topology,Nordic44,Nordic44,-,original Nordic44 benchmark,2015,high,Keep immutable base and apply overlays
+MODIFY,bus,EXAMPLE_BUS,P_load,,,MW,TBD,,low,Placeholder to be replaced with sourced 2026 operating snapshot
+MODIFY,generator,EXAMPLE_GEN,H,,,s,TBD,,low,Use online synchronous fleet and documented/inferred inertia
+MODIFY,branch,EXAMPLE_BRANCH,rating,,,MVA,TBD,,low,Update only if commissioned reinforcement maps materially to this equivalent corridor
