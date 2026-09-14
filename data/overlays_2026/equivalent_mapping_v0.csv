@@ -1,0 +1,8 @@
+change_id,physical_change,country_or_interface,commissioned_by_snapshot,nordic44_mapping_type,nordic44_target,parameter_to_modify,quantified_change,unit,confidence,status,rationale
+C001,Sogndal-Orskog 420 kV,NO5-NO3/central-west corridor,yes,area-corridor,NO5<->NO3,branch equivalent impedance/rating,TBD,,medium,candidate,"Map only after base branch table is frozen; project changes west-central transfer path"
+C002,Ofoten-Balsfjord 420 kV,NO4,north Norway,yes,internal-area,NO4 internal equivalent,branch equivalent impedance/rating,TBD,,medium,candidate,"Major reinforcement inside NO4; should not create a new market area bus"
+C003,Nedre Rossaga-Namsos upgraded to 420 kV,NO4-NO3 transition,yes,area-corridor,NO4<->NO3,branch equivalent impedance/rating,TBD,,medium,candidate,"Likely affects north-central transfer equivalent; exact N44 branch still to be identified"
+C004,Aurland-Sogndal 420 kV,NO5,yes,internal-area,NO5 internal equivalent,branch equivalent impedance/rating,TBD,,medium,candidate,"Commissioned by 2025; strengthens continuous 420 kV path but needs exact reduced-network mapping"
+C005,Aurora Line 400 kV,FI-SE1,yes,interface,FI<->SE1,interface transfer capability,+700,MW,high,candidate,"Historical Nordic44 area mapping has FI-SE1 interchange; first 2026 implementation should modify interface capability before adding a new explicit bus"
+C006,NordSyd programme,SE2-SE3,no-as-whole,scenario,SE2<->SE3,interface/corridor capability,TBD,,low,future,"Do not put full programme into 2026 base case; only individually commissioned assets qualify"
+C007,Skaidi-Hammerfest 420 kV,NO4,no,scenario,NO4 internal equivalent,branch equivalent,TBD,,high,future,"Still under construction at 2026-09-14 snapshot"
