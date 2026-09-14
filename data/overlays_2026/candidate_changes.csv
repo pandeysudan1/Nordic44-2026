@@ -1,0 +1,8 @@
+candidate_id,country,asset_or_corridor,change_type,commissioned_or_status,voltage_kv,capacity_change_mw,source_id,nordic44_mapping,status,model_action,notes
+C001,NO,Sogndal-Orskog,new_or_completed_corridor,operational-2016-12,420,,S102,pending,pending_mapping,REVIEW,Material topology change after the 2015 operating year; resolve equivalent buses before applying
+C002,NO,Ofoten-Balsfjord,new_interconnector,operational-2017-09,420,,S101,pending,pending_mapping,REVIEW,Likely material for northern Norway transfer and inter-area disturbance studies
+C003,NO,Nedre Rossaga-Namsos,voltage_upgrade,operational-2017-10,420,,S101,pending,pending_mapping,REVIEW,Map existing equivalent corridor then update impedance/rating only if justified by source data
+C004,NO,Aurland-Sogndal,new_or_reinforced_corridor,commissioned-autumn-2025,420,,S103,pending,pending_mapping,REVIEW,Statnett reports this completed continuous 420 kV north-south grid; quantify equivalent transfer effect before applying
+C005,FI-SE,Aurora Line,new_cross_border_line,commissioned-2025-11,400,700,S301+S302,pending,pending_mapping,ADD_OR_REPARAMETERIZE,Official Fingrid bulletin states about 700 MW increase in FI-SE transfer; decide whether new equivalent branch or modified interface is more faithful
+C006,SE,SE2-SE3 NordSyd programme,reinforcement_program,in-progress-2026,400/220,,S201,pending,exclude_future,DO_NOT_APPLY_WHOLE_PROGRAMME,Only individual works commissioned by the chosen 2026 snapshot date may enter the model
+C007,NO,Skaidi-Hammerfest,new_line,under-construction-2026,420,,S105,pending,exclude_future,DO_NOT_APPLY,Not commissioned at snapshot date; useful future scenario only
