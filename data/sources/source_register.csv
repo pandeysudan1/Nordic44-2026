@@ -1,7 +1,14 @@
 source_id,organization,title,url_or_reference,published_or_accessed,scope,notes
-S000,Statnett,Nordic44 original benchmark,public GitHub repository,2015,base model,Do not modify in-place
-S100,Statnett,TBD,TBD,2026,Norway,Add official 2026 source
-S200,Svenska kraftnat,TBD,TBD,2026,Sweden,Add official 2026 source
-S300,Fingrid,TBD,TBD,2026,Finland,Add official 2026 source
-S400,Energinet,TBD,TBD,2026,Denmark,Add official 2026 source
-S500,ENTSO-E,TBD,TBD,2026,Nordic,Add transparency/platform snapshot where permitted
+S000,Statnett,Nordic44 original benchmark,https://github.com/statnett/Nordic44,2017/base-data-2015,base model,Synthetic Nordic HV model trained and validated against 2015 market hours; do not modify in-place
+S101,Statnett,Our projects in Northern Norway,https://www.statnett.no/en/our-projects/northern-norway/,accessed-2026-09-14,Norway,Ofoten-Balsfjord commissioned Sep 2017; Nedre Rossaga-Namsos upgraded to 420 kV Oct 2017
+S102,Statnett,Our projects in Central Norway,https://www.statnett.no/en/our-projects/central-norway/,accessed-2026-09-14,Norway,Sogndal-Orskog 420 kV interconnector operational Dec 2016
+S103,Statnett,System Development Plan 2025 summary,https://www.statnett.no/globalassets/for-aktorer-i-kraftsystemet/planer-og-analyser/sup/summary-of-system-development-plan-2025.pdf,2025,Norway,Aurland-Sogndal 420 kV commissioned autumn 2025 and temperature upgrades reported
+S104,Statnett,Annual report 2025 milestone summary,https://www.statnett.no/en/about-statnett/investor-relations/annual-and-semi-annual-reports/,2026,Norway,Aurland-Sogndal created continuous 420 kV grid north-south; existing-grid capacity measures documented
+S105,Statnett,Half-Year Report 2026,https://www.statnett.no/en/about-statnett/news-and-press-releases/news-archive-2026/half-year-report-2026-statnett-sf---increasing-the-pace-of-grid-development/,2026-08-27,Norway,Distinguishes commissioned assets from projects still under construction/planning
+S201,Svenska kraftnat,NordSyd,https://www.svk.se/en/grid-development/grid-projects/nordsyd/,accessed-2026-09-14,Sweden,Long-term SE2-SE3 reinforcement programme; do not treat future works as 2026 commissioned assets
+S202,Svenska kraftnat,Grid projects,https://www.svk.se/en/grid-development/grid-projects/,accessed-2026-09-14,Sweden,Official project catalogue including Aurora Line
+S301,Fingrid,Aurora Line,https://www.fingrid.fi/en/grid/construction/aurora-line/,accessed-2026-09-14,Finland-Sweden,400 kV cross-border project; completed in 2025
+S302,Fingrid,Financial Statements Bulletin 2025,https://www.fingrid.fi/en/news/news/2026/fingrid-oyjs-financial-statements-bulletin-januarydecember-2025/,2026,Finland,States Aurora Line commissioned Nov 2025 and strengthened FI-SE transfer by about 700 MW
+S303,Fingrid,2015-2025 main grid development plan,https://www.fingrid.fi/en/news/news/2015/main-grid-development-plan-includes-investments-of-1.2-billion-euros-for-2015--2025/,2015,Finland,Baseline plan useful for identifying changes that were future in 2015 but realised by 2026
+S400,Energinet,TBD,TBD,2026,Denmark,Pending official screening
+S500,ENTSO-E,TBD,TBD,2026,Nordic,Pending operating snapshot and transfer data where licensing permits
