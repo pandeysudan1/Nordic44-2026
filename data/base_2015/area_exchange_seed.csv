@@ -1,0 +1,24 @@
+record_type,area_or_interface,representative_bus,device_id,notes,source_id
+AREA,NO1,5500,,historical Nordic44 area swing/representative bus,S001
+AREA,NO2,5600,,historical Nordic44 area swing/representative bus,S001
+AREA,NO3,6500,,historical Nordic44 area swing/representative bus,S001
+AREA,NO4,6700,,historical Nordic44 area swing/representative bus,S001
+AREA,NO5,5300,,historical Nordic44 area swing/representative bus,S001
+AREA,SE1,3115,,historical Nordic44 area swing/representative bus,S001
+AREA,SE2,3249,,historical Nordic44 area swing/representative bus,S001
+AREA,SE3,3500,,historical Nordic44 area swing/representative bus,S001
+AREA,SE4,8500,,historical Nordic44 area swing/representative bus,S001
+AREA,FI,7000,,historical Nordic44 area swing/representative bus,S001
+EXCHANGE,SE3-FI,3020,1,represented historically as additional load/exchange,S001
+EXCHANGE,SE3-DK1,3360,1,represented historically as additional load/exchange,S001
+EXCHANGE,NO2-DK,5610,1,represented historically as additional load/exchange,S001
+EXCHANGE,NO2-NL,5620,1,represented historically as additional load/exchange,S001
+EXCHANGE,NO4-FI,6701,1,represented historically as exchange load,S001
+EXCHANGE,NO4-RU,6701,3,represented historically as exchange load,S001
+EXCHANGE,FI-SE3,7000,6,represented historically as exchange load,S001
+EXCHANGE,FI-RU,7010,1,represented historically as exchange load,S001
+EXCHANGE,FI-EE,7020,1,represented historically as exchange load,S001
+EXCHANGE,FI-NO,7100,3,represented historically as exchange load,S001
+EXCHANGE,SE4-DK2,8500,4,represented historically as exchange load,S001
+EXCHANGE,SE4-DE,8600,1,represented historically as HVDC/exchange load,S001
+EXCHANGE,SE4-PL,8700,1,represented historically as HVDC/exchange load,S001
