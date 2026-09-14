@@ -13,3 +13,9 @@ jobs:
           python-version: '3.12'
       - run: pip install -e '.[dev]'
       - run: pytest -q
+      - name: Validate pinned Nordic44-2015 DC baseline
+        run: python scripts/run_dc_baseline.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dc-baseline
+          path: artifacts/
